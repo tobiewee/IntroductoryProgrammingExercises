@@ -3,7 +3,8 @@ package TriangleExercises;
 import java.util.Scanner;
 
 /**
- * Created by Tobie Wee on 6/4/2016.
+ * Created by Tobie Wee
+ * on 6/4/2016.
  */
 public class DrawAHorizontalLine {
     public static void main (String [] args){
