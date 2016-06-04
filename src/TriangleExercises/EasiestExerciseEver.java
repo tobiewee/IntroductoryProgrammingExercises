@@ -1,3 +1,5 @@
+package TriangleExercises;
+
 /**
  * Created by Tobie Wee on 6/4/2016.
  */

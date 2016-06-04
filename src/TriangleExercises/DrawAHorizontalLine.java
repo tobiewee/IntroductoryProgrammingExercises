@@ -1,9 +1,11 @@
+package TriangleExercises;
+
 import java.util.Scanner;
 
 /**
  * Created by Tobie Wee on 6/4/2016.
  */
-public class DrawAVerticalLine {
+public class DrawAHorizontalLine {
     public static void main (String [] args){
         Scanner in = new Scanner(System.in);
 
@@ -11,7 +13,7 @@ public class DrawAVerticalLine {
         int n = in.nextInt();
 
         for (int i=0; i<n; i++){
-            System.out.println('*');
+            System.out.print('*');
         }
     }
 }
