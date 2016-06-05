@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c4ecf70-9306-437c-a7c6-714931a9b1bb" name="Default" comment="Easiest Exercise Ever">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/TriangleExercises/DrawARightTriangle.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DiamondExercises/IsoscelesTriangle.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TriangleExercises/DrawAHorizontalLine.java" afterPath="$PROJECT_DIR$/src/TriangleExercises/DrawAHorizontalLine.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TriangleExercises/DrawAVerticalLine.java" afterPath="$PROJECT_DIR$/src/TriangleExercises/DrawAVerticalLine.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TriangleExercises/EasiestExerciseEver.java" afterPath="$PROJECT_DIR$/src/TriangleExercises/EasiestExerciseEver.java" />
     </list>
     <ignored path="IntroductoryProgrammingExercises.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,11 +35,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DrawARightTriangle.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DrawARightTriangle.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/TriangleExercises/DrawARightTriangle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+            <state relative-caret-position="242">
+              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IsoscelesTriangle.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/DiamondExercises/IsoscelesTriangle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="440">
+              <caret line="20" column="46" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
               <folding />
             </state>
           </provider>
@@ -95,6 +102,7 @@
         <option value="$PROJECT_DIR$/src/TriangleExercises/EasiestExerciseEver.java" />
         <option value="$PROJECT_DIR$/src/TriangleExercises/DrawAVerticalLine.java" />
         <option value="$PROJECT_DIR$/src/TriangleExercises/DrawARightTriangle.java" />
+        <option value="$PROJECT_DIR$/src/DiamondExercises/IsoscelesTriangle.java" />
       </list>
     </option>
   </component>
@@ -130,8 +138,6 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -181,12 +187,18 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DiamondExercises" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
-  <component name="RunManager" selected="Application.DrawARightTriangle">
+  <component name="RunManager" selected="Application.IsoscelesTriangle">
     <configuration default="false" name="EasiestExerciseEver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="TriangleExercises.EasiestExerciseEver" />
@@ -240,6 +252,26 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="TriangleExercises.DrawARightTriangle" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="IntroductoryProgrammingExercises" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="IsoscelesTriangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="DiamondExercises.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="DiamondExercises.IsoscelesTriangle" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -486,18 +518,20 @@
       <listeners />
       <method />
     </configuration>
-    <list size="4">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Application.EasiestExerciseEver" />
       <item index="1" class="java.lang.String" itemvalue="Application.DrawAHorizontalLine" />
       <item index="2" class="java.lang.String" itemvalue="Application.DrawAVerticalLine" />
       <item index="3" class="java.lang.String" itemvalue="Application.DrawARightTriangle" />
+      <item index="4" class="java.lang.String" itemvalue="Application.IsoscelesTriangle" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Application.DrawARightTriangle" />
-        <item index="1" class="java.lang.String" itemvalue="Application.DrawAVerticalLine" />
-        <item index="2" class="java.lang.String" itemvalue="Application.DrawAHorizontalLine" />
-        <item index="3" class="java.lang.String" itemvalue="Application.EasiestExerciseEver" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Application.IsoscelesTriangle" />
+        <item index="1" class="java.lang.String" itemvalue="Application.DrawARightTriangle" />
+        <item index="2" class="java.lang.String" itemvalue="Application.DrawAVerticalLine" />
+        <item index="3" class="java.lang.String" itemvalue="Application.DrawAHorizontalLine" />
+        <item index="4" class="java.lang.String" itemvalue="Application.EasiestExerciseEver" />
       </list>
     </recent_temporary>
   </component>
@@ -589,6 +623,38 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/TriangleExercises/EasiestExerciseEver.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TriangleExercises/DrawARightTriangle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TriangleExercises/DrawAVerticalLine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TriangleExercises/DrawAHorizontalLine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TriangleExercises/EasiestExerciseEver.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
@@ -637,8 +703,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TriangleExercises/DrawARightTriangle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+        <state relative-caret-position="242">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DiamondExercises/IsoscelesTriangle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="20" column="46" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
           <folding />
         </state>
       </provider>
