@@ -11,7 +11,6 @@ public class PrimeFactors {
     public static void generate(int n){
         ArrayList<Integer> primeFactors = new ArrayList();
         boolean isPrime = true;
-        StringBuilder outString = new StringBuilder();
 
         for (int i=2; i<n; i++){
             //check if is a factor
@@ -31,17 +30,7 @@ public class PrimeFactors {
             }
         }
 
-        // Convert to output String
-        int currIdx = 1;
-        for (int x : primeFactors){
-            outString.append(Integer.toString(x));
-            if(currIdx != primeFactors.size()){
-                outString.append(", ");
-            }
-            currIdx++;
-        }
-
-        System.out.println(outString.toString());
+        System.out.println(primeFactors.toString());
 
     }
 
